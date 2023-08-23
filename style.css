@@ -1,0 +1,312 @@
+root {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+header {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.navbarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin: 20px 150px 0px 30px;
+}
+.LogoImg {
+  width: 100px;
+}
+.navbarItems {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+.ItemsNavbar:visited,
+.ItemsNavbar:link,
+.ItemsNavbar::after {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sectionGetStarted {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.sectionGetStartedParagraf {
+  display: flex;
+  flex-direction: column;
+}
+.titleSectionGetStarted {
+  font-size: 32px;
+  font: bold;
+  width: 500px;
+}
+.paragrafSectionGetStarted {
+  font-size: 18px;
+  width: 490px;
+}
+.imgIlustration1 {
+  width: 700px;
+  height: 400px;
+}
+.buttonGetStarted {
+  background-color: blue;
+  color: white;
+  border-radius: 5%;
+  font-size: 13px;
+  height: 30px;
+  width: 100px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionTestimonial {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.titleDescription {
+  font-size: 32px;
+  font: bold;
+}
+.paragrafDescription {
+  font-size: 20px;
+  width: 400px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.linkHowWorks {
+  color: green;
+}
+.imgTestimonial {
+  padding-left: 20px;
+  padding-top: 25px;
+  align-items: flex-start;
+}
+.paragrafTestimonial {
+  font-size: 17px;
+  width: 300px;
+}
+.testimonialPerson {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.imgAvatar {
+  height: 50px;
+  border-radius: 100%;
+  padding-bottom: 15px;
+}
+.imageDescription {
+  height: 700px;
+  width: 700px;
+}
+.nameAvatar {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  height: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.newsletterColom {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: space-between;
+}
+.paragrafNewsletter {
+  font-size: 16px;
+}
+.formNewsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.inputNewsletter {
+  width: 500px;
+}
+.buttonNewsletter {
+  background-color: blue;
+  color: white;
+  border-radius: 5%;
+  font-size: 13px;
+  height: 30px;
+  width: 150px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.aboutUs {
+  background: hsl(243, 87%, 12%);
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.contactDates {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 2px;
+}
+.imgcontact {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: intial;
+}
+.ItemsNavbar:visited,
+.ItemsNavbar:link,
+.ItemsNavbar::after {
+  text-decoration: none;
+  color: inherit;
+}
+.navItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+.FooterItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.iconsInfo {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;
+  margin-right: 90px;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+}
+.iconsBullet:visited,
+.iconsBullet:link,
+.iconsBullet::after {
+  text-decoration: none;
+  color: inherit;
+}
+@media (max-width: 768px) {
+  .navbarHeader {
+    margin: 20px 20px;
+  }
+
+  .navbarItems {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sectionGetStarted {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .titleSectionGetStarted,
+  .paragrafSectionGetStarted {
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .imgIlustration1 {
+    width: 100%;
+    height: auto;
+  }
+  .sectionTestimonial {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .description {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .testimonial {
+    margin-top: 30px;
+    box-shadow: none;
+  }
+
+  .imageDescription {
+    width: 100%;
+    height: auto;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    height: auto;
+  }
+
+  .newsletterColom {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  .inputNewsletter,
+  .buttonNewsletter {
+    width: 100%;
+  }
+
+  .aboutUs {
+    flex-direction: column;
+    padding: 300px 20px;
+  }
+
+  .contactDates {
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+
+  .FooterItems {
+    text-align: center;
+    gap: 15px;
+  }
+}
